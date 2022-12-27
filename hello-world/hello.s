@@ -5,8 +5,8 @@ section .text
 _start:
   mov rax, 1        
   mov rdi, 1        
-  mov rsi, msg     
-  mov rdx, msglen   
+  mov rsi, txt     
+  mov rdx, txtlen   
   syscall          
 
   mov rax, 60       ; exit(
@@ -14,5 +14,5 @@ _start:
   syscall           ; );
 
 section .rodata
-  msg: db "Hello, world!", 10
-  msglen: equ $ - msg
+  txt: db "Hello, world!", 10
+  txtlen: equ $ - msg
