@@ -28,5 +28,7 @@ the first argument the exit syscall expects is placed in the rdi register (this 
     ```
 
 code 
-``` write(1, "Hello, world!", 10); 
- exit(0)```
+```
+write(1, "Hello, world!", 10); 
+    exit(0);
+```
