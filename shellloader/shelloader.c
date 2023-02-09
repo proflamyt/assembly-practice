@@ -26,7 +26,8 @@ unsigned char code[] = "\xfc\x48\x83\xe4\xf0\xe8\xc0\x00\x00\x00\x41\x51\x41\x50
 int main()
 {
    int returnval = 0;
-   int (*foo)() = (int(*)()) code ;
+ 
+   int (*foo)() = (int(*)()) code;
 
    returnval = foo();
    printf("%i", returnval);
