@@ -27,7 +27,7 @@ the first argument the exit syscall expects is placed in the rdi register (this 
  
  **The Data Section**: This is the section where initialized data and constants are defined
  
- ** The BSS Section**: This Section holds the uninitialized variables
+ **The BSS Section**: This Section holds the uninitialized variables
  
  **Text Section**: This is where the actual program code is written
  
